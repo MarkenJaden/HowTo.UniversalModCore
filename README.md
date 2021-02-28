@@ -18,8 +18,10 @@ So you can program really complex, but well optimized mods that cover many versi
 Here you get a rough basic structure with which one can start well.
 
 1. Load the repo into your favorite IDE
-2. ![](https://i.imgur.com/i5slj7U.png)
-3. Execute ``gradle umc -D umc.loader=1.12.2-forge`` (I always recommend programming in 1.12.2 by default because this Gradle integration of UMC works the most stable.)
-4. Load gradle changes
-
-I am working on it but it was 2 o'clock in the morning, I needed a break
+2. Open build.gradle and change the following lines to match your mod:
+   
+   ![](https://i.imgur.com/rPQ5LZX.png)
+   
+3. Open settings.gradle and enter the mod name there
+4. Execute ``gradle umc -D umc.loader=1.12.2-forge`` (I always recommend programming in 1.12.2 by default because this Gradle integration of UMC works the most stable.)
+5. Load gradle changes
