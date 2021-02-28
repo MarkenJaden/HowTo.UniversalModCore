@@ -4,8 +4,8 @@ In this repo I want to give you some basics about Universal Mod Core (UMC).
 
 ### Please note
 
-* This is not a Java tutorial! To work with Universal Mod Core you should have knowledge in Java programming.
-* UMC does not yet offer by far all the features that Forge offers. For example, if you just want to make a small mod that adds some standard blocks and items, I highly recommend you to deal with Forge first, as UMC doesn't offer a proper integration of "normal" blocks yet.
+* **This is not a Java tutorial!** To work with Universal Mod Core you should have knowledge in Java programming.
+* **UMC does not yet offer by far all the features that Forge offers.** For example, if you just want to make a small mod that adds some standard blocks and items, I highly recommend you to deal with Forge first, as UMC doesn't offer a proper integration of "normal" blocks yet.
 
 To give a rough overview of the possibilities of UMC, the developer cam72cam has also developed its own mod based on it. This is "Immersive Railroading", which adds a complex railroad system with flexibly placeable rails not limited to the block grid, complex physics and easily expandable with resource packs to add new trains.
 
