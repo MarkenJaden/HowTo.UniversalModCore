@@ -28,7 +28,7 @@ Here you get a completely empty project with which you start from scratch to bui
    * ``modName`` is the name of the mod :P
    * ``modId`` is the unique ID with which the mod is identified in Minecraft. This should consist exclusively of lowercase letters and not contain any special characters
 3. Open settings.gradle and enter the mod name there
-4. Execute ``./gradlew umc -D umc.loader=1.12.2-forge`` (I always recommend programming in 1.12.2 by default because this Gradle integration of UMC works the most stable.)
+4. Execute ``./gradlew umc -D umc.loader=1.12.2-forge`` (I always recommend programming in 1.12.2 by default because this Gradle integration of UMC works the most stable. If you want a different version look at the different [branches](https://github.com/TeamOpenIndustry/UniversalModCore/branches/all) of UMC and replace ``1.12.2-forge`` with the name of the branch.)
 5. The basic structure is generated and now recognized as a Java project. Now open the created "Mod" class under src/main/java/org/example/Mod.java. You will notice that one class is missing. So create under your ``modPackage`` the ``modClass`` you defined in step 2.
    
    This class could look like this:
