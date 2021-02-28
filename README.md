@@ -116,8 +116,7 @@ If you work with GitHub, this part might be interesting for you.
 
 GitHub offers with [GitHub Actions](https://github.com/features/actions) the possibility to automate various tasks on certain events. This feature is offered for free and without limitation for OpenSource projects. Under [/.github/workflows](https://github.com/MarkenJaden/HowTo.UniversalModCore/tree/Empty-setup/.github/workflows) you can find two examples.
 
-[``main.yml``](https://github.com/MarkenJaden/HowTo.UniversalModCore/blob/Empty-setup/.github/workflows/main.yml) builds your project every time you do a push to GitHub and make a change in ``src/``. The results of the builds are then automatically uploaded to GitHub. You can then retrieve and download them under the "Actions" tab when you click on the executed action at the very bottom of "Artifacts". This makes it easier for you to build the mod for the different versions you want it to support.
-
-[``release.yml``](https://github.com/MarkenJaden/HowTo.UniversalModCore/blob/Empty-setup/.github/workflows/release.yml) you have to start manually. You can use this workflow as soon as you want to release your mod. This will automatically build it for all versions you put there and upload it back to GitHub.
+* [``main.yml``](https://github.com/MarkenJaden/HowTo.UniversalModCore/blob/Empty-setup/.github/workflows/main.yml) builds your project every time you do a push to GitHub and make a change in ``src/``. The results of the builds are then automatically uploaded to GitHub. You can then retrieve and download them under the "Actions" tab when you click on the executed action at the very bottom of "Artifacts". This makes it easier for you to build the mod for the different versions you want it to support.
+* [``release.yml``](https://github.com/MarkenJaden/HowTo.UniversalModCore/blob/Empty-setup/.github/workflows/release.yml) you have to start manually. You can use this workflow as soon as you want to release your mod. This will automatically build it for all versions you put there and upload it back to GitHub.
 
 Remember to adjust the paths and names in both workflows to your mod, otherwise it won't work!
