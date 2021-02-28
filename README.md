@@ -1,21 +1,21 @@
 # HowTo.UniversalModCore
 
-In this repo I want to give you some basics about Universal Mod Core (UMC).
+In this repo I want to give you some basics about [Universal Mod Core (UMC)](https://github.com/TeamOpenIndustry/UniversalModCore).
 
 ### Please note
 
 * **This is not a Java tutorial!** To work with Universal Mod Core you should have knowledge in Java programming.
-* **UMC does not yet offer by far all the features that Forge offers.** For example, if you just want to make a small mod that adds some standard blocks and items, I highly recommend you to deal with Forge first, as UMC doesn't offer a proper integration of "normal" blocks yet.
+* **UMC does not yet offer by far all the features that [MinecraftForge](https://github.com/MinecraftForge/MinecraftForge) offers.** For example, if you just want to make a small mod that adds some standard blocks and items, I highly recommend you to deal with Forge first, as UMC doesn't offer a proper integration of "normal" blocks yet.
 
-To give a rough overview of the possibilities of UMC, the developer cam72cam has also developed its own mod based on it. This is "Immersive Railroading", which adds a complex railroad system with flexibly placeable rails not limited to the block grid, complex physics and easily expandable with resource packs to add new trains.
+To give a rough overview of the possibilities of UMC, the main developer [cam72cam](https://github.com/cam72cam) has also developed its own mod based on it. This is "[Immersive Railroading](https://github.com/TeamOpenIndustry/ImmersiveRailroading)", which adds a complex railroad system with flexibly placeable rails not limited to the block grid, complex physics and easily expandable with resource packs to add new trains.
 
-So you can program really complex, but well optimized mods that cover many versions, but you have to be prepared for various compromises.
+So you can program really complex, and well optimized mods that cover many versions, but you have to be prepared for various compromises.
 
 ## How to get started
 
 *Take a look at the branches in this repo. Depending on how you want to start, I have provided you with different stands.*
 
-Here you get a rough basic structure with which one can start well.
+Here you get a completely empty project with which you start from scratch to build your mod.
 
 1. Load the repo into your favorite IDE
 2. Open build.gradle and change the following lines to match your mod:
