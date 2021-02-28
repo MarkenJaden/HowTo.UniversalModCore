@@ -208,3 +208,7 @@ gradle-app.setting
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij+iml,java,forgegradle,eclipse,netbeans,gradle
 /.idea/
+
+#UMC
+umc.gradle
+UMC.md
