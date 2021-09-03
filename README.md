@@ -8,12 +8,13 @@ In this repo I want to give you some basics about [Universal Mod Core (UMC)](htt
 * **UMC does not yet offer by far all the features that [MinecraftForge](https://github.com/MinecraftForge/MinecraftForge) offers.** For example, if you just want to make a small mod that adds some standard blocks and items, I highly recommend you to deal with Forge first, as UMC doesn't offer a proper integration of "normal" blocks yet.
 
 To give a rough overview of the possibilities of UMC, the main developer [cam72cam](https://github.com/cam72cam) has also developed its own mod based on it. This is "[Immersive Railroading](https://github.com/TeamOpenIndustry/ImmersiveRailroading)", which adds a complex railroad system with flexibly placeable rails not limited to the block grid, complex physics and easily expandable with resource packs to add new trains.
+Another example would be [LandOfSignals](https://github.com/LandOfRails/LandOfSignals). This is not quite as complex and you get a quicker overview.
 
 So you can program really complex, and well optimized mods that cover many versions, but you have to be prepared for various compromises.
 
 ## How to get started
 
-*Take a look at the branches in this repo. Depending on how you want to start, I have provided you with different stands.*
+*COMING SOON - Take a look at the branches in this repo. Depending on how you want to start, I have provided you with different stands.*
 
 Here you get a completely empty project with which you start from scratch to build your mod.
 
