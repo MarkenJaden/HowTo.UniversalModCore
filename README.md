@@ -1,4 +1,5 @@
 # HowTo.UniversalModCore
+[![wakatime](https://wakatime.com/badge/github/MarkenJaden/HowTo.UniversalModCore.svg)](https://wakatime.com/badge/github/MarkenJaden/HowTo.UniversalModCore)
 
 In this repo I want to give you some basics about [Universal Mod Core (UMC)](https://github.com/TeamOpenIndustry/UniversalModCore).
 
